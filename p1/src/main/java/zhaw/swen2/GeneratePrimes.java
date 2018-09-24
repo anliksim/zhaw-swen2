@@ -5,7 +5,7 @@ final class GeneratePrimes {
     public static int[] generatePrimes(int maxValue) {
 
         int count = 0;
-        int[] container = new int[100];
+        int[] container = new int[maxValue];
 
         for (int i = 2; i <= maxValue; i++) {
             if (isPrime(i)) {
